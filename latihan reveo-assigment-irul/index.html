@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Groceries</title>
+   
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">Moqups</div>
+    <div class="nav">
+        <div class="nav-item"><a href="#home">Home</a></div>
+        <div class="nav-item nav-center"><a href="#our-package">Our Package</a></div>
+        <div class="nav-item"><a href="#call-us">Call Us</a></div>
+    </div>
+    </header>
+
+    <main class="main">
+        <section id="home">
+            <div class="banner">
+                <h1>Top Rate E-Groceries Shop in Indonesian</h1>
+                <p>Everyday with the best ingredients</p>
+            </div>
+        </section>
+<br><br>
+<!-- main form -->
+<section class="main-form">
+    <div class="element left">
+    <center><img src="assets/image/vegetables.jpg" alt="gambar" width="500" height="300" />
+    <p><i>"Setiap hari beli sayur buah fresh disini"</i></p></center>
+<!-- profile user -->
+<div class="profile">
+        <div class="circle"><img src="assets/image/akira-screencap.jpg" width="25" height="25"></div>
+    <div class="profile-review">
+        <h4>Florence Hughes</h4>
+        <p ><i>Ibu Rumah Tangga, 28</i></p>
+    </div>
+</div>
+<!-- benefits -->
+<hr>
+    <h4>Use this space to provide users with more  information  about your offer. Consider it a follow-up  to your headline and explain  the benefits of your service  or product</h4>
+    <div class="benefit">
+        <div class="circle">1</div>
+    <p>Your first feature, writen in the form  of benefit statement.</p>
+    </div>
+    <div class="benefit">
+        <div class="circle">2</div>
+    <p>Your second feature, writen in the form  of benefit statement.</P>
+    </div>
+    <div class="benefit">
+        <div class="circle">3</div>
+    <p>Your third feature, writen in the form  of benefit statement.</p>
+    </div>
+    </div>
+<!-- element kiri -->
+<div class="element right">
+    <div class="form" method="post">
+        <h3>Contact Us</h3>
+        <p>Sales akan menghubungi anda 1x 24 jam setelah data kami terima.</p>
+        <br><br>
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" class="input" placeholder="Name"/> <!-- Menambahkan atribut required -->
+        <br/>
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" class="input" placeholder="example@gmail.com"/> <!-- Menambahkan atribut required dan type=email -->
+        <br/>
+        <label for="opsi">What are you interested in?</label>
+        <select id="opsi" name="opsi" class="input" required> <!-- Menambahkan atribut required -->
+            <option>Select Option</option>
+            <option>Vegetarian Meal Plans</option>
+            <option>Fresh Organic Vegetables</option>
+            <option>Plant-Based Proteins</option>
+        </select>
+        <br>
+        <button class="submit" onclick="submitForm()">Kirim</button>
+    </div>
+</div>
+</section>
+<footer><center>
+    <p>Moqups<br>
+    Term of Service Privacy Policy<br>
+    &copy; 2019 Moqups</p></center>
+</footer>
+    </main>
+    <script src="js/script.js" defer></script>
+</body>
+</html>
